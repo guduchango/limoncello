@@ -1,0 +1,843 @@
+ /**
+     * @inheritdoc
+     */
+    public function getSchema($resource)
+    {
+        echo "<pre>";
+        print_r($resource->toArray());
+        echo "</pre>";
+
+            $resourceType = $this->getResourceType($resource);
+        return $this->getSchemaByType($resourceType);
+    }
+
+Array
+(
+    [id] => 1
+    [author_id] => 17
+    [company_id] => 1
+    [name] => product_873
+    [description] => Corrupti aut itaque rerum consectetur recusandae dolorem labore voluptas aut velit expedita nemo aut quo doloribus et omnis numquam sapiente tempore quia hic vitae perferendis eligendi neque distinctio dolorem fugiat ut eum omnis ea eius quos nemo voluptatem non sapiente expedita pariatur aut blanditiis facere corrupti quia eveniet assumenda nemo modi vero corrupti itaque laboriosam nisi dolorem reiciendis enim ut dolores qui quos debitis laboriosam voluptatem et esse ipsum vel sunt qui id fuga vitae.
+    [stock] => 29
+    [cost] => 1487.85
+    [duration] => 36
+    [sort] => servicio
+    [barcode] => codigo_458
+    [alert_stock] => 8
+    [desired_stock] => 9
+    [created_at] => 2015-12-22 19:26:11
+    [updated_at] => 2015-12-22 19:26:11
+    [pricelists] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 4
+                    [name] => price_059
+                    [company_id] => 4
+                    [percent_price] => 304.50
+                    [percent_subdist] => 760.40
+                    [percent_prevent] => 127.55
+                    [created_at] => 2015-12-22 19:26:11
+                    [updated_at] => 2015-12-22 19:26:11
+                    [pivot] => Array
+                        (
+                            [product_id] => 1
+                            [pricelist_id] => 4
+                            [price] => 160.24
+                            [percent_subdist] => 1477.53
+                            [percent_prevent] => 457.80
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [name] => price_263
+                    [company_id] => 7
+                    [percent_price] => 301.72
+                    [percent_subdist] => 780.77
+                    [percent_prevent] => 607.07
+                    [created_at] => 2015-12-22 19:26:11
+                    [updated_at] => 2015-12-22 19:26:11
+                    [pivot] => Array
+                        (
+                            [product_id] => 1
+                            [pricelist_id] => 2
+                            [price] => 1070.30
+                            [percent_subdist] => 861.82
+                            [percent_prevent] => 256.93
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [id] => 8
+                    [name] => price_191
+                    [company_id] => 1
+                    [percent_price] => 1014.01
+                    [percent_subdist] => 577.72
+                    [percent_prevent] => 785.57
+                    [created_at] => 2015-12-22 19:26:11
+                    [updated_at] => 2015-12-22 19:26:11
+                    [pivot] => Array
+                        (
+                            [product_id] => 1
+                            [pricelist_id] => 8
+                            [price] => 1303.79
+                            [percent_subdist] => 995.59
+                            [percent_prevent] => 1440.99
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [id] => 2
+                    [name] => price_263
+                    [company_id] => 7
+                    [percent_price] => 301.72
+                    [percent_subdist] => 780.77
+                    [percent_prevent] => 607.07
+                    [created_at] => 2015-12-22 19:26:11
+                    [updated_at] => 2015-12-22 19:26:11
+                    [pivot] => Array
+                        (
+                            [product_id] => 1
+                            [pricelist_id] => 2
+                            [price] => 674.81
+                            [percent_subdist] => 951.22
+                            [percent_prevent] => 529.38
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [id] => 2
+                    [name] => price_263
+                    [company_id] => 7
+                    [percent_price] => 301.72
+                    [percent_subdist] => 780.77
+                    [percent_prevent] => 607.07
+                    [created_at] => 2015-12-22 19:26:11
+                    [updated_at] => 2015-12-22 19:26:11
+                    [pivot] => Array
+                        (
+                            [product_id] => 1
+                            [pricelist_id] => 2
+                            [price] => 223.56
+                            [percent_subdist] => 613.80
+                            [percent_prevent] => 456.63
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [id] => 9
+                    [name] => price_525
+                    [company_id] => 5
+                    [percent_price] => 1117.34
+                    [percent_subdist] => 866.41
+                    [percent_prevent] => 672.32
+                    [created_at] => 2015-12-22 19:26:11
+                    [updated_at] => 2015-12-22 19:26:11
+                    [pivot] => Array
+                        (
+                            [product_id] => 1
+                            [pricelist_id] => 9
+                            [price] => 1265.10
+                            [percent_subdist] => 133.19
+                            [percent_prevent] => 1137.43
+                        )
+
+                )
+
+        )
+
+)
+
+Array
+(
+    [id] => 4
+    [name] => price_059
+    [company_id] => 4
+    [percent_price] => 304.50
+    [percent_subdist] => 760.40
+    [percent_prevent] => 127.55
+    [created_at] => 2015-12-22 19:26:11
+    [updated_at] => 2015-12-22 19:26:11
+    [pivot] => Array
+        (
+            [product_id] => 1
+            [pricelist_id] => 4
+            [price] => 160.24
+            [percent_subdist] => 1477.53
+            [percent_prevent] => 457.80
+        )
+
+)
+
+Array
+(
+    [id] => 2
+    [name] => price_263
+    [company_id] => 7
+    [percent_price] => 301.72
+    [percent_subdist] => 780.77
+    [percent_prevent] => 607.07
+    [created_at] => 2015-12-22 19:26:11
+    [updated_at] => 2015-12-22 19:26:11
+    [pivot] => Array
+        (
+            [product_id] => 1
+            [pricelist_id] => 2
+            [price] => 1070.30
+            [percent_subdist] => 861.82
+            [percent_prevent] => 256.93
+        )
+
+)
+
+Array
+(
+    [id] => 8
+    [name] => price_191
+    [company_id] => 1
+    [percent_price] => 1014.01
+    [percent_subdist] => 577.72
+    [percent_prevent] => 785.57
+    [created_at] => 2015-12-22 19:26:11
+    [updated_at] => 2015-12-22 19:26:11
+    [pivot] => Array
+        (
+            [product_id] => 1
+            [pricelist_id] => 8
+            [price] => 1303.79
+            [percent_subdist] => 995.59
+            [percent_prevent] => 1440.99
+        )
+
+)
+
+Array
+(
+    [id] => 2
+    [name] => price_263
+    [company_id] => 7
+    [percent_price] => 301.72
+    [percent_subdist] => 780.77
+    [percent_prevent] => 607.07
+    [created_at] => 2015-12-22 19:26:11
+    [updated_at] => 2015-12-22 19:26:11
+    [pivot] => Array
+        (
+            [product_id] => 1
+            [pricelist_id] => 2
+            [price] => 674.81
+            [percent_subdist] => 951.22
+            [percent_prevent] => 529.38
+        )
+
+)
+
+Array
+(
+    [id] => 2
+    [name] => price_263
+    [company_id] => 7
+    [percent_price] => 301.72
+    [percent_subdist] => 780.77
+    [percent_prevent] => 607.07
+    [created_at] => 2015-12-22 19:26:11
+    [updated_at] => 2015-12-22 19:26:11
+    [pivot] => Array
+        (
+            [product_id] => 1
+            [pricelist_id] => 2
+            [price] => 223.56
+            [percent_subdist] => 613.80
+            [percent_prevent] => 456.63
+        )
+
+)
+
+Array
+(
+    [id] => 9
+    [name] => price_525
+    [company_id] => 5
+    [percent_price] => 1117.34
+    [percent_subdist] => 866.41
+    [percent_prevent] => 672.32
+    [created_at] => 2015-12-22 19:26:11
+    [updated_at] => 2015-12-22 19:26:11
+    [pivot] => Array
+        (
+            [product_id] => 1
+            [pricelist_id] => 9
+            [price] => 1265.10
+            [percent_subdist] => 133.19
+            [percent_prevent] => 1137.43
+        )
+
+)
+
+Array
+(
+    [id] => 2
+    [product_id] => 1
+    [pricelist_id] => 4
+    [price] => 160.24
+    [currency_id] => 2
+    [percent_subdist] => 1477.53
+    [percent_prevent] => 457.80
+    [created_at] => 2015-12-22 19:26:12
+    [updated_at] => 2015-12-22 19:26:12
+)
+
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [author_id] => 17
+            [company_id] => 1
+            [name] => product_873
+            [description] => Corrupti aut itaque rerum consectetur recusandae dolorem labore voluptas aut velit expedita nemo aut quo doloribus et omnis numquam sapiente tempore quia hic vitae perferendis eligendi neque distinctio dolorem fugiat ut eum omnis ea eius quos nemo voluptatem non sapiente expedita pariatur aut blanditiis facere corrupti quia eveniet assumenda nemo modi vero corrupti itaque laboriosam nisi dolorem reiciendis enim ut dolores qui quos debitis laboriosam voluptatem et esse ipsum vel sunt qui id fuga vitae.
+            [stock] => 29
+            [cost] => 1487.85
+            [duration] => 36
+            [sort] => servicio
+            [barcode] => codigo_458
+            [alert_stock] => 8
+            [desired_stock] => 9
+            [created_at] => 2015-12-22 19:26:11
+            [updated_at] => 2015-12-22 19:26:11
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [author_id] => 23
+            [company_id] => 1
+            [name] => product_621
+            [description] => Id ea ducimus ab officia totam reprehenderit soluta laboriosam aut neque voluptatibus delectus nostrum iure maxime voluptate repellat sunt doloribus provident temporibus ab voluptatem cumque dolor qui corporis soluta odit illo ipsa placeat expedita occaecati doloremque amet saepe et voluptatem aperiam doloremque temporibus eos aut sed sit pariatur consequatur aut soluta facere dolore enim voluptas magni perspiciatis dolorem necessitatibus modi ipsam saepe quaerat officiis corrupti earum facilis et modi ut ipsum praesentium veniam autem recusandae aperiam autem ut iusto accusamus dicta et itaque porro quisquam.
+            [stock] => 24
+            [cost] => 1078.75
+            [duration] => 40
+            [sort] => producto
+            [barcode] => codigo_127
+            [alert_stock] => 8
+            [desired_stock] => 33
+            [created_at] => 2015-12-22 19:26:11
+            [updated_at] => 2015-12-22 19:26:11
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [author_id] => 14
+            [company_id] => 8
+            [name] => product_705
+            [description] => Debitis delectus facere ea itaque alias est cumque quia iste quia voluptas amet aut architecto nihil omnis id sit consequatur placeat quasi vero aut delectus expedita autem similique ducimus occaecati veritatis consequuntur illo id voluptas enim et voluptatem dicta recusandae commodi quisquam inventore et iure officia aliquid eveniet accusantium sit quo harum quaerat quos quod et est ea ut suscipit doloremque nam quidem repellat dolores deleniti voluptatem iste rerum autem et quia veniam quisquam rem corporis harum eos magni earum modi architecto voluptatem maiores est aut eum recusandae laboriosam accusamus vero dolor iste nihil dolores officiis sed eum vel ipsa est sint qui aliquam enim.
+            [stock] => 27
+            [cost] => 1253.84
+            [duration] => 42
+            [sort] => producto
+            [barcode] => codigo_285
+            [alert_stock] => 3
+            [desired_stock] => 83
+            [created_at] => 2015-12-22 19:26:11
+            [updated_at] => 2015-12-22 19:26:11
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [author_id] => 20
+            [company_id] => 4
+            [name] => product_935
+            [description] => Ducimus voluptates consequuntur odit tempora rem fuga velit illum natus velit aut expedita rem impedit nemo aut et commodi eum voluptatibus tenetur iste omnis impedit omnis error incidunt qui distinctio labore porro perspiciatis et similique quaerat ut voluptas quia quae ut in laborum ut et autem et corrupti hic molestiae pariatur illum magni ad assumenda dolorem consequuntur maiores fuga quia ad unde soluta quis quas nesciunt minus neque et id similique enim ut ea nihil cum eos ea cum aspernatur tenetur sapiente provident fugit molestiae optio soluta quam ea adipisci qui.
+            [stock] => 41
+            [cost] => 1461.93
+            [duration] => 50
+            [sort] => producto
+            [barcode] => codigo_251
+            [alert_stock] => 9
+            [desired_stock] => 34
+            [created_at] => 2015-12-22 19:26:11
+            [updated_at] => 2015-12-22 19:26:11
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [author_id] => 28
+            [company_id] => 2
+            [name] => product_723
+            [description] => Modi voluptatum laborum rerum dolores quibusdam explicabo facere accusantium et saepe est tempora et amet molestiae et repellat recusandae velit expedita qui expedita aut aut sit sunt corrupti amet consectetur et voluptate et ipsa quam magni rem odit et est numquam voluptatem similique officiis quae et eius eos esse quaerat dolorem est error et vero veniam ab adipisci eum aperiam aliquid rerum eos eligendi qui id in culpa iusto mollitia recusandae illo minima sit velit inventore ea aperiam beatae maiores beatae ab asperiores ad ducimus voluptates dicta harum quia maxime autem optio aut odio consequatur quam ipsum autem omnis eius aperiam aperiam et explicabo blanditiis illum ea molestias hic sed et laborum aliquam suscipit occaecati nobis consectetur numquam recusandae tenetur blanditiis et.
+            [stock] => 44
+            [cost] => 1023.48
+            [duration] => 33
+            [sort] => producto
+            [barcode] => codigo_089
+            [alert_stock] => 4
+            [desired_stock] => 61
+            [created_at] => 2015-12-22 19:26:11
+            [updated_at] => 2015-12-22 19:26:11
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [author_id] => 8
+            [company_id] => 5
+            [name] => product_909
+            [description] => Sed alias ea et iste est possimus deserunt explicabo eos repellendus est facilis cum et rerum aut sed et ullam labore similique itaque reiciendis laborum sapiente reprehenderit minima qui et unde dolores unde vitae omnis enim quia quibusdam et explicabo reiciendis distinctio ut dolore nostrum consequatur autem cumque tempore quas in et nihil sed similique facilis dolore eius quae incidunt cumque alias et nostrum temporibus consequatur voluptatem et voluptas non libero doloribus repellendus ut debitis molestiae numquam vero adipisci et eos accusamus repudiandae dignissimos pariatur ratione fugit rem vel odio consequuntur maxime qui voluptatem fuga repudiandae laborum minus aperiam.
+            [stock] => 19
+            [cost] => 647.12
+            [duration] => 35
+            [sort] => producto
+            [barcode] => codigo_996
+            [alert_stock] => 10
+            [desired_stock] => 38
+            [created_at] => 2015-12-22 19:26:11
+            [updated_at] => 2015-12-22 19:26:11
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [author_id] => 24
+            [company_id] => 6
+            [name] => product_149
+            [description] => Est iste soluta quo magni facere temporibus esse ea ut et quisquam facilis nostrum ut nobis et laborum illum dolorem nulla et doloremque veritatis qui ut voluptas incidunt sapiente accusantium eum quidem eaque voluptas voluptate nam animi ea adipisci architecto deserunt aut unde consectetur qui in quibusdam dolor accusantium et ut molestiae tempora quia nemo ratione doloremque dolores labore tempora et vero quis pariatur dolorem voluptatem asperiores voluptatibus ratione earum omnis hic sint dolorum quis ipsam voluptatibus veritatis nemo eos eius repellendus blanditiis voluptas atque delectus recusandae consequatur quas mollitia voluptatibus possimus unde consequatur laboriosam nulla sit ea vero in ut officiis neque ipsum ut cumque voluptatem vel optio autem rerum aliquam eos vero omnis suscipit quia similique sint optio magnam reiciendis nihil et cumque eligendi ut a quis omnis aut vero et facilis fugiat autem recusandae consectetur.
+            [stock] => 33
+            [cost] => 388.70
+            [duration] => 29
+            [sort] => producto
+            [barcode] => codigo_776
+            [alert_stock] => 10
+            [desired_stock] => 52
+            [created_at] => 2015-12-22 19:26:11
+            [updated_at] => 2015-12-22 19:26:11
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [author_id] => 6
+            [company_id] => 2
+            [name] => product_745
+            [description] => Est quasi sit impedit minima qui hic voluptatum dignissimos nihil temporibus temporibus et rerum quod sunt ea modi quo quo illo voluptas reprehenderit voluptatum sapiente omnis consectetur aut ut qui quae esse pariatur sint officiis ut aut repudiandae amet iure quas voluptate iste voluptas omnis deleniti consequatur et nam distinctio corporis non qui alias dolores enim quod eum ut cum sapiente natus provident qui quaerat alias ab et neque autem cum voluptas illum porro iste sapiente numquam dolor mollitia non minima quis at vel fugiat at quidem praesentium quo nemo excepturi fugit laudantium quo qui at eligendi officiis nesciunt reprehenderit error veniam voluptas nesciunt beatae animi inventore labore sapiente rerum id in sit cupiditate necessitatibus in voluptas cum recusandae architecto quisquam et voluptate.
+            [stock] => 12
+            [cost] => 1377.55
+            [duration] => 50
+            [sort] => producto
+            [barcode] => codigo_131
+            [alert_stock] => 6
+            [desired_stock] => 23
+            [created_at] => 2015-12-22 19:26:11
+            [updated_at] => 2015-12-22 19:26:11
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [author_id] => 12
+            [company_id] => 3
+            [name] => product_047
+            [description] => Vel magni et eum omnis nihil ratione quia impedit quia autem commodi qui aut qui neque ad qui est sit tempore voluptates omnis ex aut illum quod nostrum quam rerum dolorem vel iste ut iste omnis qui maxime dignissimos occaecati odit sapiente soluta rerum aut quasi minima architecto quisquam illo nam et modi autem dolorum mollitia ut dolore ullam nam molestiae labore error repellat quo aut voluptatem culpa ut laborum illo at quae ut libero laudantium veritatis laboriosam dolore perferendis provident ut praesentium eum mollitia quia labore a dolor aspernatur sit.
+            [stock] => 3
+            [cost] => 1076.45
+            [duration] => 19
+            [sort] => servicio
+            [barcode] => codigo_745
+            [alert_stock] => 3
+            [desired_stock] => 88
+            [created_at] => 2015-12-22 19:26:11
+            [updated_at] => 2015-12-22 19:26:11
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [author_id] => 30
+            [company_id] => 9
+            [name] => product_489
+            [description] => Est error id quod aliquam et id quam ut iusto eum inventore quis architecto laboriosam quis autem expedita minima et temporibus perspiciatis quo ut qui sed at necessitatibus non labore et ut omnis in veritatis et quod veritatis sit enim et eum et molestiae nam dolores fugiat sed ut qui et ut voluptatum saepe voluptatum quasi aut voluptas magnam culpa placeat.
+            [stock] => 40
+            [cost] => 687.53
+            [duration] => 31
+            [sort] => producto
+            [barcode] => codigo_755
+            [alert_stock] => 2
+            [desired_stock] => 2
+            [created_at] => 2015-12-22 19:26:11
+            [updated_at] => 2015-12-22 19:26:11
+        )
+
+    [10] => Array
+        (
+            [id] => 11
+            [author_id] => 21
+            [company_id] => 9
+            [name] => product_298
+            [description] => Magni delectus esse pariatur corporis fugit laboriosam consectetur non at ratione quisquam eius et culpa ipsam inventore omnis nihil alias laudantium facilis voluptas animi id perferendis veritatis delectus sit molestiae aut corrupti quae maiores in in maxime quaerat accusamus beatae enim sint repellat error alias necessitatibus velit natus illo ullam eum officia incidunt cum molestiae rem dolores harum quas voluptatem et et vero ut.
+            [stock] => 14
+            [cost] => 554.17
+            [duration] => 4
+            [sort] => servicio
+            [barcode] => codigo_972
+            [alert_stock] => 9
+            [desired_stock] => 97
+            [created_at] => 2015-12-22 19:26:11
+            [updated_at] => 2015-12-22 19:26:11
+        )
+
+    [11] => Array
+        (
+            [id] => 12
+            [author_id] => 4
+            [company_id] => 2
+            [name] => product_118
+            [description] => Voluptates corporis amet facilis et officiis ea et qui impedit sed accusamus ullam veritatis odio magni cum dicta pariatur incidunt debitis similique consequuntur quis voluptatum illo et animi modi repellendus eligendi reprehenderit tempore ut quia quia laboriosam ut qui nostrum veritatis omnis nostrum pariatur sed minus itaque quia sapiente ipsum sit non autem et blanditiis illum provident voluptates deleniti amet qui quia ipsa exercitationem quas facere veniam qui iusto quia veniam qui laudantium in impedit qui placeat nisi velit corrupti esse sapiente iure non et optio repellat in unde dolores ea vel ad nisi natus qui voluptatem sequi ea praesentium dolorum et eos.
+            [stock] => 38
+            [cost] => 299.17
+            [duration] => 26
+            [sort] => servicio
+            [barcode] => codigo_379
+            [alert_stock] => 1
+            [desired_stock] => 27
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [12] => Array
+        (
+            [id] => 13
+            [author_id] => 4
+            [company_id] => 4
+            [name] => product_309
+            [description] => Illum saepe quia non exercitationem sunt dolore deserunt repellendus vero adipisci sequi facere ratione fugiat minima natus quo minima animi atque sit sit id error magnam soluta ea vero non recusandae explicabo nobis est nam eveniet rem omnis qui sapiente quis voluptas est est est nihil qui dolorem ut magni fuga commodi consequuntur ab iure saepe tempora et officiis quibusdam omnis doloremque totam fuga a est ratione omnis est quia ut consequatur rem pariatur natus voluptatem non eius porro harum ducimus explicabo eum eaque vel minima laudantium sunt expedita fugiat voluptas corporis iusto aut optio minus quia in quia error.
+            [stock] => 30
+            [cost] => 798.28
+            [duration] => 43
+            [sort] => servicio
+            [barcode] => codigo_967
+            [alert_stock] => 6
+            [desired_stock] => 37
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [13] => Array
+        (
+            [id] => 14
+            [author_id] => 11
+            [company_id] => 2
+            [name] => product_486
+            [description] => Molestiae quaerat natus qui aut nihil dolor consequatur praesentium neque nihil est ipsum tempora pariatur incidunt ut molestiae eum suscipit rem modi totam sed dicta animi ut quia id magnam temporibus explicabo quia et quaerat temporibus ut nemo totam dolor molestiae beatae consequatur itaque amet nulla distinctio quis suscipit aut magni sit molestias autem placeat pariatur quis suscipit error aut tempore iste veniam sint et cupiditate qui unde est numquam voluptas itaque quo fugiat sequi.
+            [stock] => 5
+            [cost] => 1185.87
+            [duration] => 25
+            [sort] => producto
+            [barcode] => codigo_386
+            [alert_stock] => 7
+            [desired_stock] => 64
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [14] => Array
+        (
+            [id] => 15
+            [author_id] => 8
+            [company_id] => 3
+            [name] => product_919
+            [description] => Molestiae a vel praesentium omnis enim amet vel qui molestiae sit reiciendis aperiam et impedit sunt maiores accusamus in vero laudantium a similique culpa cumque aut recusandae perferendis possimus quis exercitationem sed quaerat delectus perferendis ab iste dolores non error consectetur animi magnam earum culpa dolores doloremque similique voluptatem distinctio suscipit suscipit veritatis nihil magnam laborum nihil rerum id rerum nisi in ratione et occaecati et asperiores consequatur enim et quos adipisci et sit ratione quia temporibus explicabo ex repellat consequuntur soluta quo est fugit distinctio velit tenetur in molestiae ad hic vitae quam.
+            [stock] => 41
+            [cost] => 355.61
+            [duration] => 9
+            [sort] => producto
+            [barcode] => codigo_583
+            [alert_stock] => 3
+            [desired_stock] => 34
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [15] => Array
+        (
+            [id] => 16
+            [author_id] => 2
+            [company_id] => 7
+            [name] => product_919
+            [description] => Est aut atque error recusandae dolorum ipsum voluptatem voluptatem temporibus commodi atque accusantium doloremque iusto ea nulla ipsam culpa aut aut voluptas repudiandae corporis et exercitationem nesciunt ut voluptatem sed itaque velit dolore ut quia reprehenderit molestias porro natus sapiente tempora saepe quis id non aut molestias ea vel ut quod facilis ut unde sint necessitatibus sit odio et dolores a atque provident facere libero odio quia eveniet modi reprehenderit qui et rerum quia praesentium voluptates quas modi corrupti veritatis sint suscipit explicabo voluptas praesentium maiores inventore eos non est eum dicta possimus occaecati fugiat vel.
+            [stock] => 7
+            [cost] => 1373.58
+            [duration] => 33
+            [sort] => producto
+            [barcode] => codigo_804
+            [alert_stock] => 10
+            [desired_stock] => 73
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [16] => Array
+        (
+            [id] => 17
+            [author_id] => 20
+            [company_id] => 2
+            [name] => product_052
+            [description] => Nam enim unde qui architecto doloribus voluptatem dolor dignissimos neque dolore qui numquam consequatur quia necessitatibus inventore exercitationem accusantium odio pariatur qui quos provident nisi assumenda et in architecto quibusdam recusandae autem aut voluptatem beatae mollitia repellendus cum sint mollitia similique amet numquam aperiam dolores culpa eligendi quaerat aut fugiat corrupti quod est soluta quia nihil enim dolore id quidem rerum facilis mollitia dolorem expedita dicta deleniti autem voluptatibus nihil nobis aspernatur tempore labore saepe omnis repellendus rerum sit ipsam et reprehenderit dolore ex sint ullam totam nisi ipsa nobis ratione et ipsum cupiditate facere est qui aut veniam est esse ea qui numquam omnis in at et dolorum asperiores exercitationem veniam placeat velit vitae et aliquid a voluptatem ipsa a eligendi quia ipsam nihil delectus distinctio et delectus sed rerum iste et consequatur nisi provident praesentium ea delectus mollitia.
+            [stock] => 50
+            [cost] => 1337.71
+            [duration] => 21
+            [sort] => servicio
+            [barcode] => codigo_897
+            [alert_stock] => 4
+            [desired_stock] => 72
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [17] => Array
+        (
+            [id] => 18
+            [author_id] => 26
+            [company_id] => 8
+            [name] => product_748
+            [description] => Est rerum excepturi voluptate culpa mollitia velit dolor possimus dolorem facere ut perferendis provident repellendus praesentium sed voluptatum qui a aliquam voluptatem earum perferendis dolor perspiciatis tempore placeat tempora optio dolores similique praesentium quaerat tenetur quis sit officiis quam qui ab architecto rerum excepturi praesentium totam est labore quis eos et adipisci aspernatur et explicabo magnam ut ut aut et eos ut delectus pariatur similique aut fuga eaque nostrum praesentium qui enim.
+            [stock] => 20
+            [cost] => 206.10
+            [duration] => 40
+            [sort] => producto
+            [barcode] => codigo_612
+            [alert_stock] => 6
+            [desired_stock] => 79
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [18] => Array
+        (
+            [id] => 19
+            [author_id] => 14
+            [company_id] => 1
+            [name] => product_088
+            [description] => In beatae est aperiam nam expedita accusantium quis ad repellat optio amet nisi at nulla rem consequatur qui inventore modi eveniet omnis ipsam rerum soluta minima ea voluptatem neque nihil omnis nesciunt nesciunt odit aliquid pariatur nam earum sit minus quas exercitationem et repellendus est quis dolorum est ut recusandae saepe magnam ut omnis quis odit veniam corrupti officiis ipsa et animi labore voluptas magni omnis consectetur similique laboriosam tempore provident nulla.
+            [stock] => 20
+            [cost] => 1064.73
+            [duration] => 20
+            [sort] => producto
+            [barcode] => codigo_206
+            [alert_stock] => 7
+            [desired_stock] => 22
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [19] => Array
+        (
+            [id] => 20
+            [author_id] => 20
+            [company_id] => 4
+            [name] => product_645
+            [description] => Excepturi eos aut magnam et est omnis dolores magni sint animi fugiat debitis dolorem voluptatibus repellendus reprehenderit deserunt non quod assumenda sunt voluptas fugit similique cupiditate consequatur aut sint ut consequatur est enim repellat sed possimus voluptatibus ut quia optio provident molestiae quae qui possimus accusantium iste occaecati velit cupiditate quod voluptatibus nostrum reiciendis quia cupiditate incidunt in voluptatibus qui molestias suscipit ratione aut dolorem totam illum aliquid voluptas ea qui et eaque quis quod magnam eligendi consequatur qui quaerat reiciendis modi quis similique omnis veritatis a quos in ipsum sint sapiente sit omnis quaerat odit non a dolorem dolorem ut.
+            [stock] => 37
+            [cost] => 914.42
+            [duration] => 21
+            [sort] => producto
+            [barcode] => codigo_818
+            [alert_stock] => 2
+            [desired_stock] => 71
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [20] => Array
+        (
+            [id] => 21
+            [author_id] => 27
+            [company_id] => 4
+            [name] => product_979
+            [description] => Minus odit enim et ut tenetur ab possimus est porro labore ad corporis aperiam perferendis occaecati rerum ratione odit harum velit eos voluptatum et nesciunt est enim et excepturi quo non consequatur quia unde quia officia ut repudiandae totam velit autem sed qui voluptas distinctio asperiores molestiae harum ut eligendi qui iusto unde sunt dolorem libero nostrum voluptatibus laudantium eius voluptate occaecati qui.
+            [stock] => 12
+            [cost] => 799.27
+            [duration] => 28
+            [sort] => servicio
+            [barcode] => codigo_730
+            [alert_stock] => 6
+            [desired_stock] => 85
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [21] => Array
+        (
+            [id] => 22
+            [author_id] => 23
+            [company_id] => 10
+            [name] => product_470
+            [description] => Ullam quia blanditiis quaerat asperiores minima voluptas dolores aperiam minus corporis assumenda quo et vel ea earum nulla atque autem et temporibus inventore debitis nostrum nesciunt aspernatur soluta nemo perspiciatis fuga rerum corrupti voluptatem eveniet qui consequatur possimus odit reiciendis beatae velit modi repellendus dolorem ut et explicabo sit tempora voluptas quis voluptas nihil molestias labore sunt id laudantium natus corrupti consequatur iure ut eos.
+            [stock] => 45
+            [cost] => 1058.14
+            [duration] => 6
+            [sort] => producto
+            [barcode] => codigo_804
+            [alert_stock] => 6
+            [desired_stock] => 8
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [22] => Array
+        (
+            [id] => 23
+            [author_id] => 4
+            [company_id] => 4
+            [name] => product_101
+            [description] => Odio voluptate quibusdam odio quod suscipit qui dignissimos consequuntur dolorem ut est non sint tempora delectus eos ducimus debitis molestiae est quasi architecto culpa facilis quis molestiae cum autem neque dicta maiores nesciunt omnis veritatis eius laudantium illo facere debitis esse excepturi neque mollitia distinctio totam dolores odio rerum doloremque harum et delectus similique illum esse eligendi necessitatibus eum iure voluptatum maxime dolor porro dolores rerum atque assumenda rerum maiores labore magni rerum sunt facilis placeat quibusdam quia magni.
+            [stock] => 32
+            [cost] => 1142.18
+            [duration] => 46
+            [sort] => servicio
+            [barcode] => codigo_822
+            [alert_stock] => 3
+            [desired_stock] => 59
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [23] => Array
+        (
+            [id] => 24
+            [author_id] => 20
+            [company_id] => 4
+            [name] => product_355
+            [description] => Inventore dignissimos et pariatur occaecati quia cumque est sapiente excepturi eveniet vitae odit reprehenderit non nobis ipsa nihil et dolore eveniet recusandae et qui at id et aut totam error eveniet velit distinctio cupiditate quis dolores facilis at blanditiis neque ratione qui amet ab et et id eum assumenda ad dolore aliquam et et ullam amet commodi nesciunt quia voluptas accusantium laudantium quis expedita molestiae suscipit reiciendis autem eius harum velit debitis reiciendis qui quasi rerum sunt animi eum omnis non commodi repellat eos ipsa provident ipsum eaque sint ipsa mollitia voluptatibus earum placeat voluptatibus ut reiciendis iusto fugit debitis dolores id fugiat nihil impedit quasi similique aliquid exercitationem nihil temporibus quas.
+            [stock] => 22
+            [cost] => 1224.48
+            [duration] => 19
+            [sort] => producto
+            [barcode] => codigo_156
+            [alert_stock] => 1
+            [desired_stock] => 82
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [24] => Array
+        (
+            [id] => 25
+            [author_id] => 2
+            [company_id] => 7
+            [name] => product_271
+            [description] => Dolorem quos et maxime vel molestias repudiandae cumque animi nemo sunt vero numquam sunt dolorem eos tenetur ullam non quisquam aut in natus sit rem nobis ea autem vel tenetur corporis dolores aliquam culpa alias ea consectetur aut maiores aut exercitationem incidunt quaerat qui voluptatem maiores vitae dicta iusto voluptatem labore eaque dolores ipsa non animi enim fuga omnis quis qui doloremque illum sequi alias aliquam fugiat in sit optio in eum sit quis itaque et totam ipsam magnam et eos at laboriosam est et ut et et quisquam tenetur sed rem repudiandae pariatur qui natus nihil aut perferendis voluptatum non molestiae vero ut.
+            [stock] => 25
+            [cost] => 140.92
+            [duration] => 37
+            [sort] => servicio
+            [barcode] => codigo_068
+            [alert_stock] => 9
+            [desired_stock] => 16
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [25] => Array
+        (
+            [id] => 26
+            [author_id] => 10
+            [company_id] => 3
+            [name] => product_961
+            [description] => Veniam voluptatem atque dicta fugit dolores labore perferendis sit dicta molestiae quia qui laudantium porro quia numquam maiores laborum magnam tempora officia qui quibusdam et exercitationem in rerum autem est enim fugit consequuntur cumque saepe aspernatur sed impedit commodi harum rerum dolor necessitatibus delectus quia quae eveniet facilis delectus omnis ut non et voluptas qui vel velit eligendi tempore qui temporibus dolorem illum minus et eligendi at ut molestias optio eum sit qui facilis qui omnis eos atque ut.
+            [stock] => 11
+            [cost] => 384.38
+            [duration] => 40
+            [sort] => producto
+            [barcode] => codigo_688
+            [alert_stock] => 6
+            [desired_stock] => 92
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [26] => Array
+        (
+            [id] => 27
+            [author_id] => 23
+            [company_id] => 9
+            [name] => product_374
+            [description] => Quis nihil veritatis totam excepturi dolores quo dolorem quibusdam sequi occaecati minus sapiente eveniet mollitia voluptatum sed est numquam recusandae inventore possimus omnis doloribus velit qui nemo quia sed odit est consequuntur vel ullam alias assumenda architecto quia sit laboriosam nobis sint quidem placeat architecto dolor maiores nostrum in et esse autem possimus aliquid enim voluptas aut quia est aut earum adipisci quisquam voluptatibus et dolores ratione aliquam quidem totam voluptatem quia aspernatur nostrum voluptas deserunt qui officia molestiae eligendi quo ipsa reiciendis et sed cumque tenetur excepturi non quas quod quibusdam voluptas tempora sequi sit aliquid in architecto fugiat rerum delectus velit fugiat hic quia consequuntur repudiandae ut ipsa esse quo et et ut fugiat nisi dolores rerum debitis nostrum laborum aperiam omnis qui nihil consequatur voluptas iusto tempore est rerum asperiores nulla minima eveniet alias repellat quia.
+            [stock] => 16
+            [cost] => 400.75
+            [duration] => 36
+            [sort] => servicio
+            [barcode] => codigo_272
+            [alert_stock] => 10
+            [desired_stock] => 63
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [27] => Array
+        (
+            [id] => 28
+            [author_id] => 28
+            [company_id] => 6
+            [name] => product_175
+            [description] => Quasi rem quo quisquam sit aut fugit velit sint molestias harum error soluta magni fuga ullam et perspiciatis harum fugit repellat culpa qui sint perspiciatis qui quasi et dolorem ut similique delectus vero eos dolorem nesciunt et voluptas rerum et omnis est quia aliquam et ut iste omnis non nihil molestias minima praesentium adipisci qui aspernatur quia dolores exercitationem dolor illum qui et et eum qui sed et id illo eos id id dicta praesentium est quo voluptatem aliquid magnam deleniti quia possimus quod aliquid voluptate non qui velit rem temporibus est dolor velit voluptatem fugit dolores molestiae soluta illum distinctio placeat ea mollitia maiores perferendis dolores rerum alias doloremque quae veritatis nam quia neque omnis.
+            [stock] => 32
+            [cost] => 593.97
+            [duration] => 50
+            [sort] => producto
+            [barcode] => codigo_160
+            [alert_stock] => 7
+            [desired_stock] => 15
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [28] => Array
+        (
+            [id] => 29
+            [author_id] => 19
+            [company_id] => 7
+            [name] => product_072
+            [description] => Ut nobis natus fugit totam incidunt aspernatur maiores officiis excepturi cumque accusantium sunt sapiente velit est aperiam rerum et et dolorem reprehenderit excepturi architecto quo id et perspiciatis voluptatibus commodi commodi eius delectus asperiores iusto accusantium quis blanditiis fuga fuga est est dicta delectus debitis perspiciatis magni eveniet et in optio enim et facere ut qui velit dolor est corporis deleniti fuga aut totam hic voluptatibus ex veritatis aut modi et excepturi maxime voluptatibus sunt porro ab esse nihil totam ipsa ab qui non cum dolorem error totam sint quo quas et delectus nihil sunt ea quo aut omnis.
+            [stock] => 49
+            [cost] => 1471.20
+            [duration] => 34
+            [sort] => servicio
+            [barcode] => codigo_693
+            [alert_stock] => 6
+            [desired_stock] => 33
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+    [29] => Array
+        (
+            [id] => 30
+            [author_id] => 2
+            [company_id] => 6
+            [name] => product_518
+            [description] => Et suscipit aut laudantium consectetur et odio recusandae tempora aliquam repellat quis hic eos dolores ipsum harum quam molestiae eos aut qui qui omnis aspernatur incidunt quae voluptatem cum natus quia perferendis assumenda voluptas et magni ut molestiae exercitationem omnis facilis voluptas deleniti nulla minus totam odio maxime eius possimus consequatur qui ipsam ut voluptatem delectus non molestiae saepe enim ratione voluptatem porro eveniet suscipit voluptas ratione incidunt natus inventore quis similique temporibus.
+            [stock] => 4
+            [cost] => 1251.73
+            [duration] => 4
+            [sort] => producto
+            [barcode] => codigo_888
+            [alert_stock] => 9
+            [desired_stock] => 5
+            [created_at] => 2015-12-22 19:26:12
+            [updated_at] => 2015-12-22 19:26:12
+        )
+
+)
