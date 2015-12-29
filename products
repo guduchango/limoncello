@@ -1,0 +1,1820 @@
+{
+    "data": [
+        {
+            "type": "products",
+            "id": "1",
+            "attributes": {
+                "author_id": "4",
+                "company_id": "8",
+                "name": "product_780",
+                "description": "Unde quaerat maxime cum beatae eaque rerum repellendus saepe nam et ratione iste alias voluptatum ea molestiae non quia perferendis et non quam atque eaque est eos laborum nemo voluptas qui qui quasi perspiciatis qui quo aliquam alias consequatur earum praesentium est iure voluptatibus cum est quam quia et quas minima sed impedit eum non in aut corrupti voluptatem eius dolore nam consequatur praesentium similique error quos nam non praesentium ex deleniti debitis sint eos in debitis beatae aspernatur quo magni saepe laudantium architecto quis asperiores nihil iste occaecati cumque.",
+                "stock": "28",
+                "cost": "264.68",
+                "duration": "26",
+                "sort": null,
+                "barcode": "codigo_410",
+                "alert_stock": "7",
+                "desired_stock": "1"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "10"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "5"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "24"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "72"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/1"
+            }
+        },
+        {
+            "type": "products",
+            "id": "2",
+            "attributes": {
+                "author_id": "6",
+                "company_id": "7",
+                "name": "product_556",
+                "description": "Voluptas praesentium atque accusamus rem sed dolor consequatur iste aspernatur accusantium odio eligendi dolores aut sunt aut consectetur necessitatibus sit incidunt itaque ullam omnis doloremque non et facere provident non qui blanditiis magnam pariatur assumenda distinctio ratione quam est natus dolorem dolores ab ratione sit recusandae eos et recusandae quia rerum ut aut sunt aliquid aut et consectetur consequatur numquam autem suscipit non non aspernatur repellendus doloribus et quia velit aliquid consequuntur sunt quaerat quis repellat qui esse ut magni dolores natus reiciendis voluptatem labore expedita a quisquam vitae incidunt quae qui tempore et sit aut suscipit incidunt nihil enim consectetur ut adipisci molestiae occaecati a amet ut ullam odio sint sed corrupti doloribus earum rerum qui commodi vero in quia illum modi excepturi atque tempora aut et accusantium incidunt saepe numquam et.",
+                "stock": "42",
+                "cost": "417.07",
+                "duration": "31",
+                "sort": null,
+                "barcode": "codigo_786",
+                "alert_stock": "6",
+                "desired_stock": "73"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "5"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "9"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "8"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "5"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "10"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "9"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "2"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "7"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "21"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "30"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "45"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "65"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "66"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "83"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "99"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "100"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/2"
+            }
+        },
+        {
+            "type": "products",
+            "id": "3",
+            "attributes": {
+                "author_id": "20",
+                "company_id": "8",
+                "name": "product_058",
+                "description": "Hic qui modi rerum repudiandae corporis corrupti temporibus sit neque soluta amet quas quo provident velit enim molestias velit veniam minima consequatur nulla rem accusantium accusamus dolore blanditiis saepe minus inventore et nesciunt voluptate voluptates perferendis qui error non quaerat numquam sed modi reiciendis amet cupiditate labore facere ipsa eius esse quaerat delectus nobis et omnis et fuga et quibusdam nisi voluptates totam officiis corporis molestiae ut occaecati autem quasi.",
+                "stock": "44",
+                "cost": "1049.51",
+                "duration": "37",
+                "sort": null,
+                "barcode": "codigo_620",
+                "alert_stock": "10",
+                "desired_stock": "93"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "3"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "33"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/3"
+            }
+        },
+        {
+            "type": "products",
+            "id": "4",
+            "attributes": {
+                "author_id": "5",
+                "company_id": "9",
+                "name": "product_575",
+                "description": "Distinctio ullam est sed explicabo sit alias inventore esse quo libero esse quaerat tempora magnam numquam provident deleniti ipsum earum dolorem voluptatem id ullam in aliquid modi minima nemo voluptates veritatis ratione animi nihil nihil sed molestiae non dolorem alias culpa libero tempore quas consequatur corrupti sed nostrum omnis itaque rerum aspernatur aut molestiae vitae ut voluptatum voluptate aut repudiandae debitis beatae tenetur placeat atque quia.",
+                "stock": "42",
+                "cost": "1013.56",
+                "duration": "1",
+                "sort": null,
+                "barcode": "codigo_477",
+                "alert_stock": "7",
+                "desired_stock": "91"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "7"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "7"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "53"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "88"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/4"
+            }
+        },
+        {
+            "type": "products",
+            "id": "5",
+            "attributes": {
+                "author_id": "17",
+                "company_id": "6",
+                "name": "product_298",
+                "description": "Reprehenderit id nam pariatur distinctio voluptatum non accusantium iure maiores asperiores sint nulla adipisci aut vel quod et eos aut numquam aut expedita sit est ratione recusandae rem quia ullam sed ut sunt voluptas omnis veniam ut assumenda distinctio sunt est impedit ea sit sint autem nostrum vero natus voluptatem aliquam perferendis quidem corporis aliquam dolorum eaque dolorem velit numquam labore mollitia totam sit quod soluta ipsum optio ratione ab consequatur sed quia cum voluptas voluptas ipsum architecto excepturi sint velit et et dolores aut.",
+                "stock": "11",
+                "cost": "152.43",
+                "duration": "7",
+                "sort": null,
+                "barcode": "codigo_022",
+                "alert_stock": "6",
+                "desired_stock": "70"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "2"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "9"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "4"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "9"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "2"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "32"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "63"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "81"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/5"
+            }
+        },
+        {
+            "type": "products",
+            "id": "6",
+            "attributes": {
+                "author_id": "13",
+                "company_id": "1",
+                "name": "product_482",
+                "description": "Animi commodi quo itaque placeat et dolor quae quia recusandae amet quas consequuntur excepturi quibusdam aut non facilis magni aperiam totam deserunt hic facere quidem neque et iusto minima esse et quo quisquam quam corporis totam doloribus exercitationem delectus quia incidunt totam reprehenderit quis est voluptatem dicta ab laudantium perspiciatis dolore harum sit consequatur et et consequatur incidunt dicta veniam id qui ipsam fugiat dolorum saepe mollitia est enim veniam quod non temporibus numquam quod ut quo consequatur excepturi odio ex pariatur corrupti culpa in at similique vero non magni quam quam molestiae qui officia at accusamus est voluptas ex doloremque tempora omnis aut et nulla ut voluptate nihil maiores.",
+                "stock": "18",
+                "cost": "774.59",
+                "duration": "22",
+                "sort": null,
+                "barcode": "codigo_658",
+                "alert_stock": "8",
+                "desired_stock": "19"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "5"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "4"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "10"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "10"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "11"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "18"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "59"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "76"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/6"
+            }
+        },
+        {
+            "type": "products",
+            "id": "7",
+            "attributes": {
+                "author_id": "10",
+                "company_id": "2",
+                "name": "product_579",
+                "description": "Earum distinctio laborum quia id omnis non aut et non pariatur rerum earum possimus temporibus consequuntur et quae doloribus tenetur et ut corporis et maiores ab pariatur nesciunt et eos eaque qui dolore aperiam consequuntur ut perspiciatis ducimus pariatur autem eum eaque quas et ut iste placeat qui ad sit eveniet sed cum sequi dolores velit consequatur officiis animi neque nam porro voluptatibus magni nisi et doloribus beatae est in officiis incidunt molestias est cum sit animi autem animi voluptatem soluta repudiandae quam labore atque aut et voluptas autem vel repellendus vitae est molestias aut numquam est voluptas ipsa atque praesentium ullam tempora autem ut ut harum vel inventore consectetur eligendi aliquam dolorum debitis non porro molestiae sint amet voluptatem tempore saepe deserunt minus rerum eveniet dolore aut.",
+                "stock": "2",
+                "cost": "537.26",
+                "duration": "21",
+                "sort": null,
+                "barcode": "codigo_716",
+                "alert_stock": "9",
+                "desired_stock": "68"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "7"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "2"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "25"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "51"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/7"
+            }
+        },
+        {
+            "type": "products",
+            "id": "8",
+            "attributes": {
+                "author_id": "27",
+                "company_id": "6",
+                "name": "product_988",
+                "description": "Et a reiciendis eveniet commodi omnis aliquam quae nam perspiciatis quia omnis cupiditate voluptatem aut corporis atque voluptatem inventore fuga sit culpa error accusantium facilis inventore rerum dolorem cupiditate et aliquam cumque asperiores omnis voluptatem officiis enim fugit veniam veniam voluptatem eius eligendi quaerat deleniti incidunt sunt et suscipit ut vel delectus esse rerum nihil culpa voluptate aut quam ad temporibus tenetur aut esse.",
+                "stock": "8",
+                "cost": "130.29",
+                "duration": "31",
+                "sort": null,
+                "barcode": "codigo_295",
+                "alert_stock": "8",
+                "desired_stock": "17"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "3"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "7"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "6"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "3"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "10"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "5"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "12"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "19"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "46"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "73"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "91"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "93"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/8"
+            }
+        },
+        {
+            "type": "products",
+            "id": "9",
+            "attributes": {
+                "author_id": "26",
+                "company_id": "2",
+                "name": "product_248",
+                "description": "Aliquam est dignissimos pariatur aspernatur est quia dignissimos voluptas aspernatur autem accusamus quis corrupti a et soluta et non et quam et velit sunt perspiciatis aspernatur sed aut consequuntur ratione illum placeat quis omnis eveniet commodi incidunt eveniet voluptas fugit in et quam qui ut quia at voluptas ut aliquam non ducimus quas vero aliquid et dolores ratione sint praesentium est placeat temporibus incidunt id aut molestiae dolores ut omnis cupiditate aliquid eos distinctio officiis nesciunt natus tempore voluptatibus error optio sequi quia facilis autem quo officiis et voluptates voluptatibus quis et ut culpa sed et commodi officiis et enim maiores dolores cum et quis eos quo doloremque culpa et quas qui ducimus sapiente illo eos doloribus.",
+                "stock": "20",
+                "cost": "924.51",
+                "duration": "37",
+                "sort": null,
+                "barcode": "codigo_962",
+                "alert_stock": "10",
+                "desired_stock": "34"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "9"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "98"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/9"
+            }
+        },
+        {
+            "type": "products",
+            "id": "10",
+            "attributes": {
+                "author_id": "14",
+                "company_id": "2",
+                "name": "product_920",
+                "description": "Quisquam deleniti optio reprehenderit consequuntur voluptatem molestiae similique sint incidunt iure officiis occaecati tempore animi et ea maiores et asperiores eum corrupti eligendi numquam praesentium illum at atque rerum culpa quia earum et voluptatem ullam est harum maxime fugit voluptatem minus est necessitatibus ut facilis et accusamus in quis veniam voluptates non quia animi quo saepe totam porro asperiores ut dolores quo quas suscipit ipsum sint veniam aperiam animi qui ut repellendus corrupti id hic qui et dolorem in dolor facilis fugit repudiandae totam numquam illum officiis et unde amet sunt magnam in error nostrum nihil nemo quia omnis occaecati enim maiores eius nulla omnis veniam qui aperiam.",
+                "stock": "29",
+                "cost": "514.98",
+                "duration": "23",
+                "sort": null,
+                "barcode": "codigo_458",
+                "alert_stock": "8",
+                "desired_stock": "14"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "8"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "5"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "8"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "5"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "86"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "90"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/10"
+            }
+        },
+        {
+            "type": "products",
+            "id": "11",
+            "attributes": {
+                "author_id": "26",
+                "company_id": "10",
+                "name": "product_956",
+                "description": "Nemo doloribus eum qui architecto dolor et libero sed soluta iure et dolorem suscipit ullam earum cum omnis fugiat fuga ullam culpa harum esse fugit ipsum quae consequatur id dicta et amet pariatur quae et fuga porro maxime ullam quo molestiae quia necessitatibus est earum consectetur autem qui omnis repellendus est ut laborum consequuntur quasi magni repellendus distinctio ut et natus quam libero magnam et iure optio quas ut sapiente assumenda quo laudantium exercitationem aut ducimus dolorem consectetur minus est sequi voluptatem et nesciunt repudiandae corporis nihil perferendis aut deserunt debitis ad qui.",
+                "stock": "24",
+                "cost": "566.41",
+                "duration": "49",
+                "sort": null,
+                "barcode": "codigo_472",
+                "alert_stock": "8",
+                "desired_stock": "79"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "5"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "8"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "62"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "89"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/11"
+            }
+        },
+        {
+            "type": "products",
+            "id": "12",
+            "attributes": {
+                "author_id": "14",
+                "company_id": "5",
+                "name": "product_084",
+                "description": "Eius aut optio sit consequatur minus eius et et nulla pariatur iste et et eum ut quae beatae et quibusdam atque velit accusantium iste sunt illo quam neque facilis ea voluptas fuga facilis ut minima accusamus perspiciatis in nesciunt voluptates asperiores nesciunt eum eius cum quo doloribus ab atque eos et corrupti et voluptate est et quis totam voluptate dicta explicabo iste pariatur quaerat esse repudiandae ipsum nemo consequatur nam ipsa incidunt quaerat neque laboriosam voluptatem maiores nihil et eos vero dignissimos ex alias nobis corporis illo consequatur nostrum praesentium blanditiis voluptas vitae molestiae odit sit aut quod.",
+                "stock": "17",
+                "cost": "340.28",
+                "duration": "36",
+                "sort": null,
+                "barcode": "codigo_483",
+                "alert_stock": "10",
+                "desired_stock": "71"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "9"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "2"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "7"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "10"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "20"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "42"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "71"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "78"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/12"
+            }
+        },
+        {
+            "type": "products",
+            "id": "13",
+            "attributes": {
+                "author_id": "12",
+                "company_id": "2",
+                "name": "product_376",
+                "description": "Praesentium suscipit nostrum tenetur dolor sapiente dolor et ipsa voluptatem tenetur voluptatem aut inventore et harum est quia autem omnis laborum repellat perferendis in quas et magnam necessitatibus iste quia dignissimos architecto minus fuga ut debitis et quos exercitationem nulla rerum reiciendis vero sint ut expedita sequi commodi quae doloribus voluptatem qui a tenetur provident asperiores soluta odio ab impedit quo voluptatibus modi veniam dolorem asperiores consequatur delectus modi iste maxime ratione perspiciatis veritatis omnis voluptatem nostrum reprehenderit dolore itaque eligendi sequi maxime rerum nulla quam natus nihil ipsum enim voluptas sed molestias quisquam sit mollitia ut qui at aliquid voluptas sint facere qui modi error ut dolor qui tempore voluptatem maxime fugit repellat explicabo.",
+                "stock": "6",
+                "cost": "772.74",
+                "duration": "1",
+                "sort": null,
+                "barcode": "codigo_691",
+                "alert_stock": "4",
+                "desired_stock": "75"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "6"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "10"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "22"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "47"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/13"
+            }
+        },
+        {
+            "type": "products",
+            "id": "14",
+            "attributes": {
+                "author_id": "3",
+                "company_id": "3",
+                "name": "product_236",
+                "description": "Corporis et temporibus alias ut nisi commodi sint architecto error sunt sed sapiente voluptatem placeat reprehenderit voluptatibus voluptas necessitatibus dolores ut quidem assumenda velit quo velit unde aut ipsa laboriosam excepturi fugit nihil non cum voluptas voluptatem animi velit consectetur provident corrupti culpa vel voluptatem minima dolores labore error omnis sed autem veritatis aliquid voluptatem est aut optio velit ad accusamus et ducimus voluptatem mollitia quia quaerat minima eum vero beatae consequatur maxime aut ipsam nihil culpa quia aut quia aut vel sapiente similique quo voluptatum et fuga ducimus officia voluptatibus qui quod culpa et eveniet necessitatibus iste cupiditate magni velit explicabo hic vel eaque repellendus repellat porro sunt inventore autem qui qui molestias.",
+                "stock": "43",
+                "cost": "1414.35",
+                "duration": "40",
+                "sort": null,
+                "barcode": "codigo_966",
+                "alert_stock": "2",
+                "desired_stock": "49"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "2"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "3"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "2"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "1"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "9"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "56"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "74"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "96"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/14"
+            }
+        },
+        {
+            "type": "products",
+            "id": "15",
+            "attributes": {
+                "author_id": "26",
+                "company_id": "9",
+                "name": "product_857",
+                "description": "Iure consectetur quod architecto est totam est facere dolores et repellat labore dolorem ut omnis sint a sed eos reprehenderit quia consectetur omnis ea sit reiciendis quisquam a ea molestias incidunt aut sint sint maiores molestias id quae in voluptas voluptatem consequatur blanditiis inventore enim velit sit quia tenetur ipsam sunt hic vitae praesentium saepe blanditiis et voluptatem velit sed quae aut est adipisci vitae neque est sed at rem voluptatem sed eveniet quos non in voluptatem nemo omnis et ut dolore placeat sit sit.",
+                "stock": "2",
+                "cost": "240.50",
+                "duration": "26",
+                "sort": null,
+                "barcode": "codigo_140",
+                "alert_stock": "8",
+                "desired_stock": "88"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "5"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "7"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "10"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "3"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "70"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "75"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "80"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "82"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/15"
+            }
+        },
+        {
+            "type": "products",
+            "id": "16",
+            "attributes": {
+                "author_id": "30",
+                "company_id": "8",
+                "name": "product_605",
+                "description": "Vitae est eum velit rerum ut voluptas reiciendis tenetur eius quaerat reiciendis enim adipisci quas architecto nobis occaecati ut est rerum esse laborum dolores magni at veritatis eaque omnis itaque in quae nam vero perferendis est beatae dicta optio dignissimos expedita voluptatem voluptatem et repellendus voluptates animi fugit placeat mollitia beatae non nobis non est quibusdam eos error qui ducimus et dolorem laborum unde quis doloremque dolorem doloribus necessitatibus est qui eos sunt nulla quis cumque omnis eius dignissimos rem ut excepturi id praesentium qui nihil optio voluptatem quod aut sed est quia sint consequatur exercitationem ut reprehenderit enim occaecati pariatur ab beatae quidem voluptate cupiditate exercitationem occaecati sit dolor maiores molestias cumque corrupti recusandae aperiam eaque laudantium molestiae neque quia odit quia et nihil.",
+                "stock": "17",
+                "cost": "1423.27",
+                "duration": "5",
+                "sort": null,
+                "barcode": "codigo_042",
+                "alert_stock": "4",
+                "desired_stock": "11"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+
+                    ]
+                },
+                "prices": {
+                    "data": [
+
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/16"
+            }
+        },
+        {
+            "type": "products",
+            "id": "17",
+            "attributes": {
+                "author_id": "2",
+                "company_id": "3",
+                "name": "product_500",
+                "description": "Facere quae nam officiis vero aut tempora suscipit in quasi nemo distinctio voluptatem iste porro placeat aut eum aut iusto delectus quo perferendis occaecati qui deleniti est nesciunt vero ut et rerum ipsa ea porro officiis debitis nemo qui architecto eveniet dolorem dolores et maiores et eos aspernatur alias consequuntur natus possimus iusto cum sint in perspiciatis ea labore sint dolorem qui consectetur non porro praesentium veniam quam quibusdam sapiente est suscipit ipsum deleniti qui numquam sunt placeat iusto mollitia aliquam aliquam animi impedit tempora perferendis quisquam qui dolorem autem aut est laboriosam provident optio harum qui rerum commodi optio impedit qui rem perspiciatis nobis aliquam dolor maxime ad animi consectetur laborum a non vero ipsa inventore dolor aperiam inventore expedita ipsam placeat rerum.",
+                "stock": "4",
+                "cost": "1012.30",
+                "duration": "7",
+                "sort": null,
+                "barcode": "codigo_447",
+                "alert_stock": "7",
+                "desired_stock": "65"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "9"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "8"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "9"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "7"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "2"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "8"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "16"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "41"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "49"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "77"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/17"
+            }
+        },
+        {
+            "type": "products",
+            "id": "18",
+            "attributes": {
+                "author_id": "12",
+                "company_id": "1",
+                "name": "product_554",
+                "description": "Eaque perspiciatis non aut quam cupiditate fugit cupiditate eligendi eligendi accusantium molestiae tempore iusto velit nobis omnis incidunt labore non dolorum inventore nihil voluptatem id tenetur omnis illum iure totam qui quasi eos at dolorum ea natus assumenda incidunt non quam nisi quia dolor enim aspernatur sed consequatur exercitationem aliquam dolorem modi non assumenda necessitatibus voluptatem eligendi dolores sed dolores tempora odit animi fugit voluptatem soluta voluptates culpa facere voluptate quae ducimus excepturi recusandae aut quod unde ipsa voluptas sed et cumque nulla sit error sint voluptatem consequatur quo laudantium laboriosam soluta est ullam vitae aut non nihil est suscipit reiciendis et eos ut enim earum vitae enim beatae qui soluta et officia impedit et eveniet.",
+                "stock": "32",
+                "cost": "770.99",
+                "duration": "34",
+                "sort": null,
+                "barcode": "codigo_787",
+                "alert_stock": "10",
+                "desired_stock": "93"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "1"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "3"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "2"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "10"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "4"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "4"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "14"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "39"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "57"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "69"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/18"
+            }
+        },
+        {
+            "type": "products",
+            "id": "19",
+            "attributes": {
+                "author_id": "25",
+                "company_id": "10",
+                "name": "product_685",
+                "description": "Exercitationem placeat modi qui illum eos saepe in ut impedit nisi dolor iusto doloremque iure rem explicabo odit aut minima earum omnis unde occaecati consectetur harum qui autem fuga et nesciunt dolorem labore explicabo ea aliquid expedita fugit delectus et id sit quia et aut voluptatem sed ea sunt et totam aspernatur explicabo totam aperiam earum fuga est incidunt soluta mollitia accusantium et vitae voluptatem qui ratione.",
+                "stock": "39",
+                "cost": "918.65",
+                "duration": "41",
+                "sort": null,
+                "barcode": "codigo_585",
+                "alert_stock": "1",
+                "desired_stock": "59"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "10"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "10"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "1"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "10"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "10"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "38"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "61"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "64"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "79"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "95"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/19"
+            }
+        },
+        {
+            "type": "products",
+            "id": "20",
+            "attributes": {
+                "author_id": "9",
+                "company_id": "9",
+                "name": "product_571",
+                "description": "Voluptas amet praesentium cum odit in inventore libero id qui non quae alias sit est maxime quo quo dolor et voluptatem rerum omnis sint aut quo laudantium odit voluptatem incidunt aperiam non dolore quia dolor minima voluptate quasi rerum aut officia dignissimos vel magni molestiae dolores assumenda sit in repudiandae voluptas eaque velit sunt nihil amet quod consequatur reiciendis qui est est sit cum aut numquam blanditiis sit molestiae soluta rerum sit eos assumenda architecto voluptas occaecati ipsa molestias ea odit totam libero eos dolores occaecati voluptatem sed repudiandae dolores ipsum ea esse pariatur.",
+                "stock": "46",
+                "cost": "494.39",
+                "duration": "49",
+                "sort": null,
+                "barcode": "codigo_809",
+                "alert_stock": "6",
+                "desired_stock": "29"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "5"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "1"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/20"
+            }
+        },
+        {
+            "type": "products",
+            "id": "21",
+            "attributes": {
+                "author_id": "6",
+                "company_id": "2",
+                "name": "product_531",
+                "description": "Omnis possimus est laudantium aut eaque velit maxime dolorem aut labore laborum suscipit magni ut quo vero repudiandae dolor voluptates corporis iusto atque qui facere ratione tempora et aut nobis fugiat soluta vero inventore in laudantium quo a ab neque rerum deserunt quasi deserunt labore nisi sunt nihil modi ad eum sed totam consequatur ipsa voluptas molestias aut enim qui officiis amet quis rerum et ipsum doloremque delectus magni perspiciatis quia voluptatum perspiciatis hic eum illum odio ducimus eligendi assumenda quae aut laudantium ab iure quia numquam perferendis nesciunt sed rem et voluptatibus tempora possimus magni eligendi velit vel qui soluta rerum quaerat dicta labore inventore ea nemo adipisci blanditiis esse ipsam quaerat quos quod.",
+                "stock": "36",
+                "cost": "1104.69",
+                "duration": "32",
+                "sort": null,
+                "barcode": "codigo_387",
+                "alert_stock": "9",
+                "desired_stock": "73"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "2"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "1"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "15"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "58"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/21"
+            }
+        },
+        {
+            "type": "products",
+            "id": "22",
+            "attributes": {
+                "author_id": "26",
+                "company_id": "5",
+                "name": "product_161",
+                "description": "Id autem est perferendis est recusandae amet et quam cumque minus quasi dignissimos occaecati vel ea unde illo voluptatem eos esse numquam quas sit quia minus sed est error iste perspiciatis dolorem vero dolores ipsam et ut mollitia neque corrupti voluptatem iste nulla explicabo rem voluptatem est et distinctio earum odio recusandae ab tempore quia et sed minus asperiores voluptas fugiat in possimus unde voluptatum temporibus tempora quas fugit dignissimos qui quo autem cum et repudiandae et nam architecto ut eligendi sint quia esse ipsam velit quis quia labore consequatur corporis expedita corrupti similique quia nostrum.",
+                "stock": "23",
+                "cost": "954.41",
+                "duration": "21",
+                "sort": null,
+                "barcode": "codigo_285",
+                "alert_stock": "9",
+                "desired_stock": "4"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+
+                    ]
+                },
+                "prices": {
+                    "data": [
+
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/22"
+            }
+        },
+        {
+            "type": "products",
+            "id": "23",
+            "attributes": {
+                "author_id": "7",
+                "company_id": "5",
+                "name": "product_218",
+                "description": "Omnis esse ea placeat optio sed enim nisi dignissimos laudantium facere magni autem fuga hic ut id enim tenetur ipsum vel cupiditate dolor maiores recusandae aut tempore illo sed ut dignissimos explicabo rerum consectetur illo saepe provident delectus temporibus reiciendis libero dolor est blanditiis id iusto pariatur assumenda accusantium et alias deleniti qui suscipit ullam voluptas illo corporis molestiae cum aut possimus consequuntur voluptas atque non unde nam quo explicabo tempora veniam aliquid officiis cupiditate quia ipsum autem dolores consectetur et est possimus dolor in itaque rerum.",
+                "stock": "34",
+                "cost": "202.56",
+                "duration": "36",
+                "sort": null,
+                "barcode": "codigo_097",
+                "alert_stock": "8",
+                "desired_stock": "47"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "8"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "6"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "5"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "5"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "2"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "10"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "29"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "31"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "44"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "84"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/23"
+            }
+        },
+        {
+            "type": "products",
+            "id": "24",
+            "attributes": {
+                "author_id": "30",
+                "company_id": "7",
+                "name": "product_455",
+                "description": "Facere ipsum excepturi itaque ut laborum voluptate aliquid totam id ut eius ut rerum maiores praesentium aperiam saepe blanditiis commodi aut voluptatum et magnam incidunt aperiam dolores ut consequatur libero molestiae iusto unde nihil architecto quaerat magni aut qui at ducimus tenetur consequatur aliquam nemo exercitationem voluptatem consequatur qui rerum minus illo soluta delectus doloribus voluptates sint commodi delectus nisi velit recusandae ipsum magnam laboriosam sunt soluta perspiciatis inventore nihil velit non illum quis ut unde laborum eos quia tenetur dolores qui neque ad rerum unde voluptate laboriosam dolores distinctio qui temporibus qui consequuntur illum quos accusamus vel dicta voluptas adipisci et itaque ipsam molestias dicta ut dolorum.",
+                "stock": "42",
+                "cost": "1249.30",
+                "duration": "42",
+                "sort": null,
+                "barcode": "codigo_864",
+                "alert_stock": "10",
+                "desired_stock": "41"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "8"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "3"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "9"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "9"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "9"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "3"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "17"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "50"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "52"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "85"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/24"
+            }
+        },
+        {
+            "type": "products",
+            "id": "25",
+            "attributes": {
+                "author_id": "2",
+                "company_id": "10",
+                "name": "product_920",
+                "description": "Magnam quae explicabo et tenetur distinctio et asperiores temporibus non cumque et earum reprehenderit totam ipsam magnam est aspernatur occaecati non dolor et deserunt in nisi facilis maxime dolor aut dolorem molestiae atque cupiditate debitis dicta ad ad odio autem sunt libero dolorem repellendus qui est et quas quidem et officiis harum libero quis voluptatibus iure quia at sit repellat officia impedit ut aut enim delectus placeat quod nisi qui ea omnis quasi voluptatibus exercitationem nulla nostrum eius esse perspiciatis aliquid ipsum est praesentium voluptates ut ducimus vel omnis odit delectus similique est voluptatem itaque nostrum consequatur perferendis sapiente magnam exercitationem mollitia.",
+                "stock": "42",
+                "cost": "585.35",
+                "duration": "33",
+                "sort": null,
+                "barcode": "codigo_325",
+                "alert_stock": "3",
+                "desired_stock": "75"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "7"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "1"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "8"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "27"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "54"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "68"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/25"
+            }
+        },
+        {
+            "type": "products",
+            "id": "26",
+            "attributes": {
+                "author_id": "7",
+                "company_id": "3",
+                "name": "product_019",
+                "description": "Assumenda vero provident nemo dolore iusto iusto exercitationem enim sunt sit aut tempora iste magni sunt magnam ipsa eius nulla vero quae nihil fuga qui alias quia quis id quia fuga quis aperiam recusandae aut dolor quia ea incidunt quia minima adipisci aliquam delectus quo eligendi id molestiae doloremque et sed veniam non totam consectetur consequatur est cumque porro eos doloremque omnis vero architecto corporis sed sapiente rerum.",
+                "stock": "3",
+                "cost": "860.20",
+                "duration": "36",
+                "sort": null,
+                "barcode": "codigo_457",
+                "alert_stock": "10",
+                "desired_stock": "5"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "1"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "1"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "4"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "9"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "7"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "26"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "48"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "60"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/26"
+            }
+        },
+        {
+            "type": "products",
+            "id": "27",
+            "attributes": {
+                "author_id": "6",
+                "company_id": "2",
+                "name": "product_692",
+                "description": "Et error tempore quaerat libero asperiores optio vitae et consequatur sit beatae doloremque quas debitis eaque eaque iusto accusantium voluptates impedit sit quas ad fugit corporis tenetur assumenda blanditiis modi corporis voluptatem optio id repellat officia perspiciatis illo quibusdam harum culpa impedit odio dignissimos qui rerum expedita ab ut dolorem non eum aut et rerum quia natus qui officia ut sapiente magni dolores quae maiores ad modi blanditiis aliquid ratione fuga aut et quaerat aliquam eos cupiditate labore voluptatibus ratione ipsum debitis animi debitis mollitia nihil nisi dolor itaque nobis dolorum optio maiores sit sequi facilis saepe quidem eligendi consequatur assumenda ratione sed commodi repellat quibusdam eius fugit ullam quas odit dolores rerum corporis ad voluptatibus sit fuga dolorem aliquam dicta dolorum est in quos assumenda velit quaerat ea et.",
+                "stock": "27",
+                "cost": "188.39",
+                "duration": "33",
+                "sort": null,
+                "barcode": "codigo_504",
+                "alert_stock": "1",
+                "desired_stock": "36"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "4"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "7"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "2"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "9"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "13"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "28"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "43"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "94"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/27"
+            }
+        },
+        {
+            "type": "products",
+            "id": "28",
+            "attributes": {
+                "author_id": "27",
+                "company_id": "8",
+                "name": "product_536",
+                "description": "Eius ipsum sit aut quia aut nisi voluptatem ratione ut sapiente eos labore ab aut veritatis quibusdam dolores rerum possimus eligendi qui ipsam iure qui est fuga ut sequi adipisci minima et velit fugiat voluptas nam enim eaque sit in aut recusandae corrupti et et delectus reprehenderit quisquam quibusdam doloremque cum temporibus pariatur placeat est dolore earum vero quos voluptatem rerum iure et eum non nisi nulla quod accusamus ex illo ea sint maiores et minus esse sed sunt voluptates quibusdam ea incidunt voluptatem culpa ullam dicta quia reprehenderit error architecto eum quae eum dolorum fugit cumque qui neque eligendi id dolorem porro et dolorum dicta placeat fugit veniam deserunt et nam nobis itaque voluptates aliquid illum sequi impedit totam cum ut sint quia cum ea architecto id totam odit et commodi ut vel quod.",
+                "stock": "9",
+                "cost": "1271.47",
+                "duration": "38",
+                "sort": null,
+                "barcode": "codigo_225",
+                "alert_stock": "3",
+                "desired_stock": "67"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "4"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "4"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "2"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "8"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "34"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "35"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "67"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "87"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/28"
+            }
+        },
+        {
+            "type": "products",
+            "id": "29",
+            "attributes": {
+                "author_id": "16",
+                "company_id": "4",
+                "name": "product_741",
+                "description": "Laborum alias error rerum omnis temporibus et quos necessitatibus error voluptatem vitae deleniti id sunt commodi eum voluptas rerum est omnis perspiciatis porro inventore itaque maiores odio doloremque ipsum ad quo eos provident quo sunt fuga facilis tempora qui dolore maxime corporis facere inventore eligendi at molestiae vel officia minus cumque consequatur molestias aperiam quisquam expedita quam et pariatur repellat soluta quae dignissimos consectetur dolorum ea.",
+                "stock": "12",
+                "cost": "436.87",
+                "duration": "33",
+                "sort": null,
+                "barcode": "codigo_138",
+                "alert_stock": "7",
+                "desired_stock": "21"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "3"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "6"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "10"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "8"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "6"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "36"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "92"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "97"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/29"
+            }
+        },
+        {
+            "type": "products",
+            "id": "30",
+            "attributes": {
+                "author_id": "20",
+                "company_id": "9",
+                "name": "product_981",
+                "description": "Placeat magni quas eligendi nihil repudiandae rerum voluptatum iusto molestiae eligendi maiores iste sunt consequatur velit ipsa alias a voluptatem possimus veritatis aliquid et officia blanditiis ea amet eum velit neque vitae nostrum et dolorem laudantium incidunt tempora ut quia exercitationem distinctio iste voluptas veritatis iusto eum adipisci ipsum similique odit aspernatur laudantium eos aperiam cupiditate excepturi est culpa recusandae culpa sit et cumque illum temporibus sunt autem consequuntur hic rerum qui aspernatur atque nihil dolorem illum ab quaerat tenetur omnis ipsa facere recusandae molestiae eos ex consequuntur dolores quasi ut temporibus qui debitis velit sed officiis voluptate nulla rem magnam sint sunt provident ea molestias odio voluptatem eaque voluptatem accusamus praesentium saepe et nihil dolore ea et dolorem ipsa error quia voluptatem numquam illo tempora incidunt minus id asperiores magni sunt et id explicabo fuga autem facere dolorum sunt fuga.",
+                "stock": "24",
+                "cost": "860.41",
+                "duration": "44",
+                "sort": null,
+                "barcode": "codigo_781",
+                "alert_stock": "1",
+                "desired_stock": "68"
+            },
+            "relationships": {
+                "pricelists": {
+                    "data": [
+                        {
+                            "type": "pricelists",
+                            "id": "9"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "8"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "6"
+                        },
+                        {
+                            "type": "pricelists",
+                            "id": "3"
+                        }
+                    ]
+                },
+                "prices": {
+                    "data": [
+                        {
+                            "type": "pricelist_product",
+                            "id": "23"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "37"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "40"
+                        },
+                        {
+                            "type": "pricelist_product",
+                            "id": "55"
+                        }
+                    ]
+                }
+            },
+            "links": {
+                "self": "http:\/\/localhost\/products\/30"
+            }
+        }
+    ],
+    "included": [
+        {
+            "type": "pricelists",
+            "id": "10",
+            "attributes": {
+                "name": "price_408",
+                "company_id": "9",
+                "percent_price": "746.63",
+                "percent_subdist": "1155.05",
+                "percent_prevent": "728.48"
+            }
+        },
+        {
+            "type": "pricelists",
+            "id": "5",
+            "attributes": {
+                "name": "price_049",
+                "company_id": "10",
+                "percent_price": "911.18",
+                "percent_subdist": "769.73",
+                "percent_prevent": "751.99"
+            }
+        },
+        {
+            "type": "pricelists",
+            "id": "9",
+            "attributes": {
+                "name": "price_151",
+                "company_id": "9",
+                "percent_price": "441.51",
+                "percent_subdist": "1405.05",
+                "percent_prevent": "257.73"
+            }
+        },
+        {
+            "type": "pricelists",
+            "id": "8",
+            "attributes": {
+                "name": "price_652",
+                "company_id": "4",
+                "percent_price": "524.69",
+                "percent_subdist": "1395.23",
+                "percent_prevent": "1131.03"
+            }
+        },
+        {
+            "type": "pricelists",
+            "id": "2",
+            "attributes": {
+                "name": "price_656",
+                "company_id": "3",
+                "percent_price": "560.03",
+                "percent_subdist": "647.02",
+                "percent_prevent": "824.46"
+            }
+        },
+        {
+            "type": "pricelists",
+            "id": "7",
+            "attributes": {
+                "name": "price_640",
+                "company_id": "5",
+                "percent_price": "1239.37",
+                "percent_subdist": "439.74",
+                "percent_prevent": "1381.65"
+            }
+        },
+        {
+            "type": "pricelists",
+            "id": "3",
+            "attributes": {
+                "name": "price_687",
+                "company_id": "6",
+                "percent_price": "109.23",
+                "percent_subdist": "352.84",
+                "percent_prevent": "1268.56"
+            }
+        },
+        {
+            "type": "pricelists",
+            "id": "4",
+            "attributes": {
+                "name": "price_191",
+                "company_id": "4",
+                "percent_price": "574.36",
+                "percent_subdist": "1245.12",
+                "percent_prevent": "1474.87"
+            }
+        },
+        {
+            "type": "pricelists",
+            "id": "6",
+            "attributes": {
+                "name": "price_753",
+                "company_id": "7",
+                "percent_price": "1414.77",
+                "percent_subdist": "1041.46",
+                "percent_prevent": "271.87"
+            }
+        },
+        {
+            "type": "pricelists",
+            "id": "1",
+            "attributes": {
+                "name": "price_143",
+                "company_id": "2",
+                "percent_price": "1407.14",
+                "percent_subdist": "804.00",
+                "percent_prevent": "1400.18"
+            }
+        }
+    ]
+}
